@@ -1,0 +1,127 @@
+svg {
+  width:80px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform .2s ease-in;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.icons {
+  display: flex;  
+  justify-content: center;
+  font-size: 1.3em;
+  margin-left: 1rem;
+}
+
+.icon-default svg {
+  fill: black; 
+}
+
+.icon1.filled1 svg {
+  fill: #1c8502; }
+
+.icon2.filled2 svg {
+  fill: #22f1e7; 
+}
+.icon3.filled3 svg {
+  fill: #f36609;
+}
+.icon4.filled4 svg {
+  fill: #f30909; 
+}
+
+
+.icon1:hover svg {
+  fill: #1c8502;
+  transform: scale(1.3); 
+ }
+
+.icon2:hover svg {
+  fill: #22f1e7; 
+  transform: scale(1.3); 
+}
+
+.icon3:hover svg {
+  fill: #f36609;
+  transform: scale(1.3); 
+}
+
+.icon4:hover svg {
+  fill: #f30909;
+  transform: scale(1.3); 
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.btn--active{
+  display: inline-block;
+}
+
+.textarea {
+  width: 100%;
+  display: block;
+  background-color: rgb(red, green, blue);
+  color: #000000;
+  border:none;
+  resize: none;
+  outline: none;
+  height: 0;
+  opacity: 0;
+  transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.textarea--active{
+  padding: 1rem;
+  opacity: 1;
+  height: 6rem;
+}
+
+.wrapper {
+  width: 500px;
+  height: 40%;
+  background-color: #ffffff5e;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  box-shadow: 0 0 30px #00000080;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Questrial, sans-serif;
+  font-size: 1em;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.titre{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph{
+  margin-top: 20px;
+}

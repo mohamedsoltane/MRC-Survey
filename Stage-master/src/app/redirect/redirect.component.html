@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="../redirect/redirect.component.css">
+
+  <div class="wrapper">
+
+    <div class="titre">
+      <h1>Résultats d'évaluations</h1>
+    </div>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Évaluation</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Très satisfait(e)</td>
+          <td>{{storeValue1}}</td>
+        </tr>
+        <tr>
+          <td>Satisfait(e)</td>
+          <td>{{storeValue2}}</td>
+        </tr>
+        <tr>
+          <td>Moyennement satisfait(e)</td>
+          <td>{{storeValue3}}</td>
+        </tr>
+        <tr>
+          <td>Insatisfait(e)</td>
+          <td>{{storeValue4}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th style="text-align: center;">Opinions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{storeOpinion}}</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+  
+<button (click)="redirection()">Retour</button>
+<button (click)="getOptions()">Afficher</button>
+
+<button (click)="fileDownload()">Télécharger</button>
+
